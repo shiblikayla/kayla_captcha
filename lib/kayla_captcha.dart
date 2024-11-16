@@ -51,7 +51,8 @@ class _KaylaCaptchaState extends State<KaylaCaptcha> {
                   image: DecorationImage(
                       fit: BoxFit.fill,
                       image: AssetImage(
-                          'packages/kayla_captcha/lib/images/grungy-watercolor-texture-on-grey-paper-with-splatter-background-photo.jpeg'))),
+                          'packages/kayla_captcha/lib/images/grungy-watercolor-texture-on-grey-paper-with-splatter-background-photo.jpeg',
+                          package: 'kayla_captcha'))),
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: captchaText
