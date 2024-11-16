@@ -38,7 +38,23 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+    - family: MooLahLah
+      fonts:
+        - asset: lib/fonts/captcha_random_fonts/MooLahLah-Regular.ttf
+    - family: QwitcherGrypen
+      fonts:
+        - asset: lib/fonts/captcha_random_fonts/QwitcherGrypen-Bold.ttf
+    - family: ReenieBeanie
+      fonts:
+        - asset: lib/fonts/captcha_random_fonts/ReenieBeanie-Regular.ttf
+    - family: RubikBeastly
+      fonts:
+        - asset: lib/fonts/captcha_random_fonts/RubikBeastly-Regular.ttf
+    - family: SixtyfourConvergence
+      fonts:
+        - asset: lib/fonts/captcha_random_fonts/SixtyfourConvergence-Regular-VariableFont_BLED,SCAN,XELA,YELA.ttf
+
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
